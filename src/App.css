@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    min-height: 100vh;
+    position: relative;
+    align-content: center;
+}
+.title{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 5px;
+}
+
+.btn button{
+    color: white;
+    margin: 5px;
+    padding: 8px;
+    width: 100px;
+    min-height: 50px;
+    border: 2px white solid;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+}
